@@ -1,4 +1,7 @@
-﻿:root {
+﻿.swatch--large[style*="burgundy"] {
+  background: #741f35 !important;
+}
+:root {
   color-scheme: dark;
   --ink: #08090b;
   --surface: #101216;
