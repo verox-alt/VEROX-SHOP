@@ -88,4 +88,20 @@ body { background: #08090b; color: #f4f5f6; }
 .button--secondary { border-color: rgba(255,255,255,.28); background: rgba(0,0,0,.25); color: white; }
 .manifesto, .newsletter { background: #0d1015; }
 .footer { background: #07080a; }
+.hoodie-section { padding: 32px 0 72px; background: #000; }
+.eyebrow--dark { justify-content: center; color: #fff; }
+.eyebrow--dark span { background: #fff; box-shadow: 0 0 10px rgba(255,255,255,.6); }
+.hoodie-title { margin: 0 0 28px; text-align: center; color: #fff; font-size: clamp(2.2rem, 4vw, 4rem); line-height: 1; }
+.hoodie-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 18px; }
+.hoodie-card { min-width: 0; background: rgba(255,255,255,.02); border: 1px solid rgba(255,255,255,.08); }
+.hoodie-card .product-image { background: #0e0e0e; }
+.hoodie-card .product-info h3, .hoodie-card .product-info strong, .hoodie-card .product-category, .hoodie-card .product-meta { color: #fff; }
+.hoodie-card .quick-view { background: rgba(255,255,255,.06); }
+.hoodie-card .add-button { border-color: rgba(255,255,255,.14); color: #fff; }
+.hoodie-card .add-button:hover { border-color: var(--blue); color: var(--blue-bright); }
+.social-link svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.social-link .social-dot { fill: currentColor; stroke: none; }
+.footer-links a:focus-visible { color: var(--blue-bright); outline: 2px solid var(--blue-bright); outline-offset: 4px; }
+@media (max-width: 850px) { .hoodie-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .hoodie-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 
